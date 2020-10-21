@@ -1,0 +1,940 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Montserrat:wght@200;400;700&display=swap');
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    width: 100%;
+    background-color: #f1f6f9;
+    font-family: 'Montserrat';
+
+}
+
+.footer1 img {
+    max-width: 250px;
+}
+
+.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #14274e;
+}
+
+
+
+/* Start */
+
+/* Navbar */
+
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.logo img {
+    max-width: 200px;
+    margin: 10px 15px;
+}
+
+#top ul li {
+    margin: 20px 50px;
+}
+
+#top ul {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+#top {
+    margin-right: 0px;
+}
+
+#nav-contact {
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+#nav ul li a {
+    font-size: 2.3vh;
+    color: #394867;
+    transition: .3s ease all;
+}
+
+#nav ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #14274e;
+}
+
+#nav-contact a {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: 2.3vh;
+    background-color: #394867;
+    transition: .5s ease all;
+}
+
+#nav-contact a:hover {
+    background-color: transparent;
+    color: #14274e;
+}
+
+/* ---------------------Home---------------------- */
+
+
+#header {
+    margin: 0px 20px;
+    height: 89vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid #14274e;
+}
+
+.header-img {
+    max-width: 100%;
+    height: 80%;
+    margin-left: 700px;
+    margin-right: 0;
+    margin-top: 60px;
+}
+
+.header-img img {
+    max-width: 68vh;
+}
+
+.header-content {
+    margin-top: 130px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+}
+
+.header-content h1 {
+    font-size: 8vh;
+    font-family: 'b612';
+    color: #395867;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    color: #14274e;
+    font-size: 10vh;
+}
+
+.header-content p {
+    width: 80%;
+    font-weight: 400;
+    font-size: 3vh;
+    color: black;
+    letter-spacing: .05rem;
+    line-height: 2rem;
+}
+
+.header-content h3 {
+    margin-top: 10px;
+    font-size: 3vh;
+    font-weight: 400;
+    color: black;
+}
+
+.header-content button {
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 28px;
+    font-size: 3vh;
+    letter-spacing: .05rem;
+    outline: none;
+    margin-top: 30px;
+    color: #f1f6f9;
+    background-color: #14274e;
+    transition: .5s ease all;
+    font-family: 'b612', cursive;
+}
+
+.header-content button:hover {
+    background-color: white;
+    color: #14274e;
+}
+
+
+
+
+/* Working Process */
+
+#process h2 {
+    text-align: center;
+}
+
+.pro-parent {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 0px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 80%;
+}
+
+.process h4 {
+    margin-top: 14px;
+}
+
+
+.pro-parent img {
+    max-width: 170px;
+}
+
+.container3>h2 {
+    margin-top: 100px;
+    font-size: 7vh;
+    font-weight: 400;
+    word-spacing: .6rem;
+    color: #14274e;
+}
+
+.high {
+    color: #9ba4b4;
+    font-size: 10vh;
+}
+
+.process {
+    text-align: center;
+    transition: .3s ease all;
+}
+
+.processCount {
+    width: 65%;
+    height: 240px;
+    margin: 0px 30px;
+    margin-right: 5px;
+
+}
+
+.container3 {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border-bottom: 3px solid #395867;
+    padding-bottom: 50px;
+}
+
+.process:hover {
+    filter: drop-shadow(3px 4px 3px #395867);
+}
+
+
+/* Why Me or Container Four */
+
+.container4 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 3px solid #14274e;
+}
+
+.container4 h2 {
+    font-size: 6vh;
+    font-weight: 400;
+}
+
+.cont3-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.cont3-content p {
+    width: 50%;
+    font-size: 2.2vh;
+    letter-spacing: .1rem;
+    line-height: 1.6em;
+    text-align: justify;
+    width: 70%;
+    color: #394867;
+}
+
+.cont3-content img {
+    max-width: 400px;
+    margin-left: 70px;
+    text-align: right;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+/* Container 5 or Testimonials */
+
+
+.container5 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-bottom: 3px solid #14274e;
+    padding-bottom: 30px;
+}
+
+.container5 h2 {
+    font-weight: 400;
+    font-size: 6vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#testimonials {
+    border: 2px solid transparent;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f5f6f8;
+    color: #14274e;
+    box-shadow: 0px 0px 2px 0 #14274e;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    transition: .3s ease all;
+}
+
+#testimonials:hover {
+    box-shadow: 0px 0px 8px 0px #394867;
+}
+
+#testimonials img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    filter: drop-shadow(2px 7px 9px #14274e);
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+#testimonials h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: none;
+    padding-top: none;
+    font-size: 5vh;
+}
+
+#testimonials h5 {
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.p1 {
+    font-weight: 200;
+    margin: 10px 0px;
+    font-size: 3vh;
+}
+
+.p2 {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cont5flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Contact Button */
+
+
+.container6 {
+    margin-top: 70px;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 3px solid #14274e;
+    padding-bottom: 40px;
+}
+
+.container6 h4 {
+    margin-top: 60px;
+    color: black;
+    font-size: 3vh;
+    font-family: 'b612', cursive;
+    width: 80%;
+
+}
+
+.container6 button {
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 2.3vh;
+    margin-top: 30px;
+    outline: none;
+    background-color: #14274e;
+    color: white;
+    transition: .5s ease all;
+}
+
+.container6 button:hover {
+    background-color: white;
+    color: #14274e;
+}
+
+
+/* Footer  */
+
+footer {
+    display: flex;
+    height: 230px;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+    align-items: center;
+    font-family: 'b612', cursive;
+}
+
+#bottom ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#bottom ul li {
+    padding: 10px 0px;
+}
+
+.footertwo {
+    display: inline;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.footer1 img {
+    margin-left: 40px;
+}
+
+#bottom ul li a {
+    letter-spacing: .05rem;
+    font-family: 'b612', cursive;
+    color: black;
+    transition: .5s ease-in all;
+}
+
+#bottom ul li a:hover {
+    border-bottom: 1px solid grey;
+}
+
+.footer3 img {
+    filter: grayscale();
+    transition: .3s ease-out all;
+}
+
+.footer3 img:hover {
+    filter: none;
+}
+
+
+
+/* ------------Portfolio Page-------------- */
+
+#portfolio-content h1 {
+    font-size: 7vh;
+    color: #14274e;
+    text-align: center;
+}
+
+#portfolio-content {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.web {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+    padding: 10px;
+}
+
+.web h2 {
+    font-family: 'b612', cursive;
+    margin-bottom: 20px;
+}
+
+.web p {
+    width: 40%;
+    text-align: justify;
+    letter-spacing: .06rem;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+/* ------------------ Pricing ----------------- */
+
+
+#pricing {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#pricing h1 {
+    font-size: 7vh;
+    color: #14274e;
+    letter-spacing: .1rem;
+}
+
+.pricebar {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    margin: 0 auto;
+    padding: 14px;
+    color: white;
+    height: auto;
+    background-color: #14274e;
+    margin-bottom: 7px;
+}
+
+.box h3 {
+    font-family: 'b612', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 3.3vh;
+    color: #f1f6f9;
+}
+
+.boxServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxServices h4 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid green;
+    padding-bottom: 2px;
+}
+
+.boxServices p {
+    margin: 13px 0px;
+    font-weight: 200;
+    letter-spacing: .04rem;
+}
+
+
+.box h2 {
+    margin-top: 30px;
+}
+
+.basic {
+    color: rgb(210, 243, 24);
+}
+
+.box1 h2 {
+    color: rgb(210, 243, 24);
+}
+
+.box1 .boxServices h4 {
+    border-bottom: 2px solid rgb(210, 243, 24);
+}
+
+
+.buisness {
+    color: rgb(252, 127, 44);
+}
+
+.box2 h2 {
+    color: rgb(252, 127, 44);
+}
+
+.box2 .boxServices h4 {
+    border-bottom: 2px solid rgb(252, 127, 44);
+}
+
+
+.premium {
+    color: rgb(252, 64, 64);
+}
+
+.box3 h2 {
+    color: rgb(252, 64, 64);
+}
+
+.box3 .boxServices h4 {
+    border-bottom: 2px solid rgb(252, 64, 64);
+}
+
+.box:hover {
+    background-color: rgba(20, 39, 78, 0.925);
+}
+
+
+/* Portfolio */
+
+.portfolio2 {
+    margin-top: 70px;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 3px solid #14274e;
+    padding-bottom: 40px;
+}
+
+.portfolio2 h2 {
+    margin-top: 60px;
+    color: black;
+    font-size: 3vh;
+    font-family: 'b612', cursive;
+    width: 80%;
+
+}
+
+.portfolio2 button {
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 2.3vh;
+    margin-top: 30px;
+    outline: none;
+    background-color: #14274e;
+    color: white;
+    transition: .5s ease all;
+}
+
+.portfolio2 button:hover {
+    background-color: white;
+    color: #14274e;
+}
+
+
+/* ----------------About------------------- */
+
+
+#about {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#about h1 {
+    font-size: 7vh;
+    color: #14274e;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+.about-head {
+    order: 2;
+}
+
+.about-head img {
+    border-radius: 5px;
+}
+
+.about-body p {
+    text-align: justify;
+    font-size: 2.3vh;
+    letter-spacing: .03rem;
+    line-height: 1.3rem;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 12px;
+}
+
+
+#abt-contact {
+    width: 80%;
+    margin: auto;
+}
+
+#abt-contact h2 {
+    margin: 30px 0px;
+    font-size: 5vh;
+    color: #14274e;
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.cont-box {
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.678);
+    transition: .3s ease-in all;
+}
+
+
+.cont-box2 {
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 35%;
+}
+
+
+
+.cont-box:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.363);
+}
+
+
+
+/* Media Queries-------------------------------- */
+
+
+@media(max-width:768px) {
+
+    #top,
+    #nav-contact {
+        display: none;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    #header {
+        background: url('./Colorful Modern Illustrated Learning and Technology School Project Education Presentation (1).png');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+
+    .header-content p {
+        display: none;
+    }
+
+    .header-content h3 {
+        display: none;
+    }
+
+    /* my way */
+
+
+    .processCount {
+        display: none;
+    }
+
+    #process {
+        margin: auto;
+        width: 100%;
+    }
+
+    .pro-parent {
+        margin: auto;
+        margin-top: 50px;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .process {
+        margin-bottom: 20px;
+        border-bottom: 3px solid #14274e;
+        padding-bottom: 15px;
+    }
+
+    /* why Me */
+
+    .cont3-content {
+        display: block;
+    }
+
+    .cont3-content p {
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #why-me {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .cont3-content img {
+        margin: auto;
+        width: 350px;
+        text-align: center;
+        margin: auto;
+    }
+
+    body {}
+
+
+
+
+    /* Testimonials */
+
+    #testimonials {
+        width: 100%;
+    }
+
+
+    #testimonials {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #f1f6f9;
+        border: none;
+        box-shadow: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+
+    /* Footer */
+
+    #footer {
+        width: 100%;
+    }
+
+    #bottom ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer {
+        flex-direction: column;
+
+    }
+
+    .footertwo {
+        margin: auto;
+    }
+
+    .footer3 h4 {
+        display: none;
+    }
+
+    .footer2 li {
+        margin: 0px 10px;
+    }
+
+
+    /*--------- Portfolio */
+
+
+    .web p {
+        width: 70%;
+    }
+
+    #portfolio-content {
+        width: 100%;
+    }
+
+    iframe {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Pricing */
+
+
+    .pricebar {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+
+    }
+
+    /* About */
+
+    .cont {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .cont-box {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    #about {
+        margin: 10 auto;
+    }
+
+    .about-content {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .about-body p {
+        font-size: 2vh;
+        text-align: justify;
+        letter-spacing: 0.02rem;
+    }
+
+    .about-body {
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+
+
+}
+
+
+@media(max-width:425px) {
+    #why-me img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+
+}
